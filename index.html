@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal-Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script defer src="portfolio.js"></script>
+  </head>
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          
+          <a href="https://www.linkedin.com/in/laharikatepalli/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50">
+              <path fill="white" d="M5.2 21.5H.4V7.2h4.8v14.3zM3 5.8C1.4 5.8 0 4.4 0 2.9c0-1.5 1.4-2.9 3-2.9s3 1.4 3 2.9c0 1.5-1.4 2.9-3 2.9zM21.5 21.5h-4.8v-7.2c0-1.7 0-3.8-2.4-3.8-2.4 0-2.8 1.9-2.8 3.9v7.1h-4.8V7.2h4.7v2.1h.1c.6-1.1 2-2.4 4.6-2.4 4.9 0 5.8 3.2 5.8 7.4v6.2z"/>
+            </svg>
+          </a>
+          
+          
+          
+          <a href="https://github.com/laharikatepalli">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="100" height="50">
+              <path fill="white" d="M12 0a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.5-1.2-1.2-1.5-1.2-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1.1 1.5 1.1.9 1.6 2.4 1.1 3 1 .1-.7.4-1.1.7-1.4-2.4-.3-4.9-1.2-4.9-5.4 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 .9a10.2 10.2 0 0 1 2.6-.4c.9 0 1.8.1 2.6.4 2.1-1.2 3-.9 3-.9.6 1.5.2 2.6.1 2.9.6.8 1.1 1.8 1.1 3 0 4.2-2.5 5.1-4.9 5.4.4.3.8.8.8 1.8v2.7c0 .3.2.7.8.6A12 12 0 0 0 12 0z"/>
+            </svg>
+          </a>
+
+          
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav"
+            aria-controls="nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work-exp">Work Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+             
+      <section class="about">
+        <div class="aboutdiv container-fluid" id="about-me">
+          Hi There!!
+          <img class="image" src="lahari.jpg" alt="lahari-Bio" />
+          <p class="paragraph">
+            I am Lahari Katepalli. As a passionate and driven Master's student in Computer Science, 
+            I have earned recognition for my academic achievements and gained practical experience 
+            through internships and projects. With a strong background in programming and data analysis,
+            I am excited to contribute my skills to solving real-world problems in the field.
+          </p>
+        </div>
+      </section>
+      <hr class="line" />
+      <div class="projecttitle" id="projects"><h1>My Projects</h1></div>
+      <div class="projectdiv container-fluid">
+        <section class="projects">
+          <div class="row">
+            <div class="column">
+              <img class="img" src="giphy.gif" alt="TransitSystems" />
+              <h4 class="proj">Internet Relay Chat Protocol</h4>
+              <p class="paragraph">
+                This RFC outlines an IRC client server application. This system facilitates the group of users that are 
+                subscribed to the room receive messages of the other users in the room. 
+                Any message sent to that room is forwarded to all users currently joined to that room.
+                Users can also send private messages directly to other users.
+              </p>
+              <h5 class="time">Technology used</h5>
+              <ul class="desc">
+                <li>Python</li>
+              </ul>
+              <a
+                class="git"
+                href="https://github.com/laharikatepalli/Internet-Relay-Chat-Protocol"
+              >
+                GitHub Link
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects">
+          <div class="row">
+            <div class="column">
+              <img class="img" src="tb.jpg" alt="TbDetection" />
+              <h4 class="proj">TB Detection From Chest X-ray</h4>
+              <p class="paragraph">
+                In this project, On Tuberculosis data, we offer a machine
+                learning technique to compare the performance of K Nearest
+                Neighbors and an ensemble of classifiers. Real data was used to
+                train the categorization models. We have used Local KNN,
+                Weighted KNN and Gradient Boosting to predict the disease in
+                patients and we have compared their accuracies and found the
+                best for our problem. The classifiers' prediction accuracy was
+                assessed using k-fold Cross Validation, and the results were
+                compared to determine the best prediction accuracy.
+              </p>
+              <h5 class="time">Technology used</h5>
+              <ul class="desc">
+                <li>Python libraries : Scipy, Sklearn, NumPy</li>
+              </ul>
+              <a
+                class="git"
+                href="https://github.com/laharikatepalli/TB-Detection-From-Chest-X-ray"
+              >
+                GitHub Link
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="projects">
+          <div class="row">
+            <div class="column">
+              <img class="img" src="recipes-1.jpg" alt="SocialMediaAgg" />
+              <h4 class="proj">Recipe-App</h4>
+              <p class="paragraph">
+                This project presents the final high-fidelity interface
+                prototype for our Recipe-App and
+                discusses the justification of design decisions based on our
+                initial research, design principles, analytical and empirical
+                evaluations for the prototype. This was done in order to address
+                usability problems with modern social media platforms and
+                improve the experience for users of multiple social media
+                platforms.
+              </p>
+              <h5 class="time">Technology used</h5>
+              <ul class="desc">
+                <li>Balsamiq for wireframes</li>
+              </ul>
+              <a
+                class="git"
+                href="https://github.com/laharikatepalli/Recipe-App"
+              >
+                GitHub Link
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+      <hr class="line" />
+      <div class="expdiv container-fluid" id="work-exp">
+        My Work Experience
+        <h3 class="company">Portland State University Facilities & Property Management, PSU</h3>
+
+        <h4 class="jobtitle">Database Administrative Assistant</h4>
+        <h5 class="time">June 2022 - Present</h5>
+        <ul class="desc">
+          <li>
+            Used update Business Services Database (AIM).
+          </li>
+          <li>Create reports based on current data using javascript</li>
+          <li>
+            Troubleshooted technology issues and documented customer requests
+          </li>
+          <li>Worked collaboratively in a team-oriented environment</li>
+        </ul>
+        <h5 class="skills">Skills Acquired</h5>
+        <ul class="slist">
+          <li>
+            Jira, sql, javascript, Datamaster, MacOS, Windows OS, linux
+          </li>
+        </ul>
+        <hr class="line" />
+        <h3 class="company">TCS</h3>
+
+        <h4 class="jobtitle">Student Intern</h4>
+        <h5 class="time">Jun 2021 - Aug 2021</h5>
+        <ul class="desc">
+          <li>
+            The objective of this project is to build a salary prediction dashboard for HRs.
+          </li>
+          <li>
+            Build a library prediction dashboard for the HR of the company.
+          </li>
+          <li>
+            Gained hands‑on experience in Creating, Cleaning, an Sanitizing the Dataset.
+          </li>
+          <li>
+            Gained hands‑on experience in collecting and training the dataset to get accurate intended outcomes.
+          </li>
+        </ul>
+        <h5 class="skills">Skills Acquired</h5>
+        <ul class="slist">
+          <li>
+            Python,Tableau,Time Management, Leadership
+            
+          </li>
+        </ul>
+        <!--<hr class="line" />
+        <h3 class="company">Wipro Technologies Ltd, India</h3>
+
+        <h4 class="jobtitle">Project Engineer</h4>
+        <h5 class="time">June 2015 - Jan 2017</h5>
+        <ul class="desc">
+          <li>Played keyrole in application support as consultant in EDI</li>
+          <li>
+            Contributed to continuos improvement and quality assurance tasks
+          </li>
+          <li>
+            Used Ticketing software to address technical issues and guided users
+            through end resolution
+          </li>
+          <li>
+            Worked in Agile workflow and developed software in JD Edwards
+            Enterprise One ERP tool
+          </li>
+        </ul>
+        <h5 class="skills">Skills Acquired</h5>
+        <ul class="slist">
+          <li>
+            JDEdwards EOne, EDI, Agile, Application development and Support,
+            consultant
+          </li>
+        </ul> -->
+      </div>
+      <hr class="line" />
+      <div class="contacttitle"><h1>Contact Me</h1></div>
+      <p class="contacttext">
+        To get in touch with me, please fill the form below
+      </p>
+      <div class="contactdiv container-fluid" id="contact-me">
+        <form id="contactme" action="portfolio.html">
+          <div class="mb-3 row">
+            <div class="col">
+              <label for="name" class="col-sm-4 col-form-label">Name</label>
+
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Please Type Your Name"
+              />
+            </div>
+
+            <div class="col">
+              <label for="email" class="col-sm-4 col-form-label">Email</label>
+
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Please Type Your Email"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="col-sm-4 col-form-label">Message</label>
+
+            <textarea
+              type="text"
+              class="form-control"
+              id="message"
+              placeholder="Please Leave Your Message"
+              style="height: 5rem"
+              ;
+            ></textarea>
+          </div>
+
+          <div class="group-buttons">
+            <button class="btn btn-primary btn-lg px-5" type="submit">
+              Submit
+            </button>
+            <button class="btn btn-secondary btn-lg px-5" type="reset">
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid footer">
+          <p>&copy 2022 Lahari Katepalli</p>
+          <a
+                    class="navlink"
+                    href="https://github.com/laharikatepalli"
+                    >@GitHub</a
+                  >
+          <a
+                  class="navlink"
+                  href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" 
+                  >@LinkedIn</a
+                >
+        </div>
+      </nav>
+    </main>
+  </body>
+</html>
