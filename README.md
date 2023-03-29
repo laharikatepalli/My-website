@@ -2,7 +2,7 @@
 
 ## Personal-Portfolio
 
-This project is developed as part of CS 510 - Intro to Web Development course at PSU. It is a Personal Portfolio site with information about my projects and work experience. This site was developed using HTML, CSS and JavaScript and deployed using github pages. The site is deployed at : https://sandeepsingamaneni.github.io/personal-portfolio/
+This project is developed as part of CS 510 - Intro to Web Development course at PSU. It is a Personal Portfolio site with information about my projects and work experience. This site was developed using HTML, CSS and JavaScript and deployed using github pages. The site is deployed at : laharikatepalli.github.io/My-website/ 
 
 ## How To Run
 
